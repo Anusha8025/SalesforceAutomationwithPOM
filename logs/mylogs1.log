@@ -1,0 +1,133 @@
+20231029 06:14:46 INFO  [main] Scripts.FirebaseAutomationScript FirebaseAutomationScript.java32 - ******login_to_firebase automation script started***********
+20231029 06:46:29 INFO  [main] Scripts.FirebaseAutomationScript FirebaseAutomationScript.java32 - ******login_to_firebase automation script started***********
+20231029 07:34:44 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 07:36:10 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 07:36:51 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 07:37:27 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 07:39:05 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 07:40:27 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 07:47:27 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 07:50:08 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 07:50:29 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 07:52:10 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 07:54:03 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 07:58:35 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 08:02:52 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 09:23:20 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 09:31:23 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 09:32:03 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 09:36:53 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 09:38:57 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 09:40:15 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 09:40:45 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 09:41:02 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 09:44:27 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 09:46:20 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce automation script started***********
+20231029 09:46:20 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java40 - Password not entered
+20231029 09:46:23 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java51 - Error message displayed
+20231029 09:58:47 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java59 - ******login_to_salesforce - password empty automation script started***********
+20231029 09:58:48 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java71 - Username and password entered
+20231029 10:03:07 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce - password empty automation script started***********
+20231029 10:03:07 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java40 - Password not entered
+20231029 10:03:15 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java59 - ******login_to_salesforce - password empty automation script started***********
+20231029 10:03:16 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java71 - Username and password entered
+20231029 10:46:41 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce - password empty automation script started***********
+20231029 10:46:41 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java40 - Password not entered
+20231029 10:46:54 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java59 - ******login_to_salesforce - password empty automation script started***********
+20231029 10:46:56 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java71 - Username and password entered
+20231029 10:52:26 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java59 - ******login_to_salesforce - Login Successful automation script started***********
+20231029 10:52:28 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java71 - Username and password entered
+20231029 10:53:10 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java59 - ******login_to_salesforce - Login Successful automation script started***********
+20231029 10:53:12 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java71 - Username and password entered
+20231029 10:54:49 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java59 - ******login_to_salesforce - Login Successful automation script started***********
+20231029 10:54:50 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java71 - Username and password entered
+20231029 10:55:49 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java59 - ******login_to_salesforce - Login Successful automation script started***********
+20231029 10:55:51 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java71 - Username and password entered
+20231029 11:09:01 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java32 - ******login_to_salesforce - password empty automation script started***********
+20231029 11:09:01 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java40 - Password not entered
+20231029 11:09:05 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java51 - Error message displayed
+20231029 11:09:05 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java52 - ******login_to_salesforce - password empty automation script ended***********
+20231029 11:09:08 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java59 - ******login_to_salesforce - Login Successful automation script started***********
+20231029 11:09:09 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java71 - Username and password entered
+20231029 11:22:15 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java59 - ******login_to_salesforce - Login Successful automation script started***********
+20231029 11:22:16 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java71 - Username and password entered
+20231029 11:23:25 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java59 - ******login_to_salesforce - Login Successful automation script started***********
+20231029 11:23:26 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java71 - Username and password entered
+20231029 11:27:03 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java59 - ******login_to_salesforce - Login Successful automation script started***********
+20231029 11:27:05 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java71 - Username and password entered
+20231029 11:27:14 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java80 - ******login_to_salesforce - Login Successful***********
+20231029 11:29:01 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java59 - ******login_to_salesforce - Login Successful automation script started***********
+20231029 11:29:03 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java71 - Username and password entered
+20231029 11:29:12 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java80 - ******login_to_salesforce - Login Successful***********
+20231029 11:49:16 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java88 - ******login_to_salesforce - CheckRemeberMe automation script started***********
+20231029 11:49:17 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java101 - Username and password entered and Rememberme check box clicked
+20231029 11:49:26 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java110 - ******login_to_salesforce - Login Successful***********
+20231029 18:14:02 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java119 - ******login_to_salesforce - ForgotPassword automation script started***********
+20231029 18:14:03 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java132 - Forgot Password Link clicked
+20231029 18:14:08 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java138 - Inside Forgot Password Page
+20231029 18:16:08 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java119 - ******login_to_salesforce - ForgotPassword automation script started***********
+20231029 18:16:08 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java132 - Forgot Password Link clicked
+20231029 18:16:13 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java138 - Inside Forgot Password Page
+20231029 18:17:41 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java119 - ******login_to_salesforce - ForgotPassword automation script started***********
+20231029 18:17:42 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java132 - Forgot Password Link clicked
+20231029 18:17:47 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java138 - Inside Forgot Password Page
+20231029 18:17:48 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java145 - continue Link clicked
+20231029 18:26:10 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java119 - ******login_to_salesforce - ForgotPassword automation script started***********
+20231029 18:26:11 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java132 - Forgot Password Link clicked
+20231029 18:26:21 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java143 - Inside Forgot Password Page
+20231029 18:26:22 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java147 - continue Link clicked
+20231029 18:27:44 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java119 - ******login_to_salesforce - ForgotPassword automation script started***********
+20231029 18:27:45 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java132 - Forgot Password Link clicked
+20231029 18:27:55 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java143 - Inside Forgot Password Page
+20231029 18:27:56 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java147 - continue Link clicked
+20231029 18:29:38 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java119 - ******login_to_salesforce - ForgotPassword automation script started***********
+20231029 18:29:38 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java132 - Forgot Password Link clicked
+20231029 18:29:48 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java143 - Inside Forgot Password Page
+20231029 18:29:50 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java147 - continue Link clicked
+20231029 18:29:55 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java154 - ******login_to_salesforce - ForgotPassword Successful***********
+20231029 18:55:54 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java161 - ******login_to_salesforce - IncorrectUsernameAndPasswd automation script started***********
+20231029 18:55:55 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java173 - Invalid Username and password entered
+20231029 18:56:00 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java180 - ******login_to_salesforce - IncorrectUsernameAndPasswd Successful***********
+20231029 19:10:31 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java187 - ******login_to_salesforce - Selectusermenuforusernamdropdown automation script started***********
+20231029 19:10:33 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java199 -  Username and password entered
+20231029 19:10:40 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java208 - ******login_to_salesforce - IncorrectUsernameAndPasswd Successful***********
+20231029 19:13:59 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java90 - ******login_to_salesforce - CheckRemeberMe automation script started***********
+20231029 19:14:00 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java103 - Username and password entered and Rememberme check box clicked
+20231029 19:14:09 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java112 - ******login_to_salesforce - Login Successful***********
+20231029 19:14:12 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java119 - ******login_to_salesforce - ForgotPassword automation script started***********
+20231029 19:14:13 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java132 - Forgot Password Link clicked
+20231029 19:14:23 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java143 - Inside Forgot Password Page
+20231029 19:14:24 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java147 - continue Link clicked
+20231029 19:14:29 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java154 - ******login_to_salesforce - ForgotPassword Successful***********
+20231029 19:14:32 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java161 - ******login_to_salesforce - IncorrectUsernameAndPasswd automation script started***********
+20231029 19:14:33 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java173 - Invalid Username and password entered
+20231029 19:14:39 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java180 - ******login_to_salesforce - IncorrectUsernameAndPasswd Successful***********
+20231029 19:14:42 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java187 - ******login_to_salesforce - Selectusermenuforusernamdropdown automation script started***********
+20231029 19:14:43 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java199 -  Username and password entered
+20231029 19:14:50 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java208 - ******login_to_salesforce - IncorrectUsernameAndPasswd Successful***********
+20231029 19:14:53 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java34 - ******login_to_salesforce - password empty automation script started***********
+20231029 19:14:53 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java42 - Password not entered
+20231029 19:14:57 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java53 - Error message displayed
+20231029 19:14:57 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java54 - ******login_to_salesforce - password empty automation script ended***********
+20231029 19:15:00 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java61 - ******login_to_salesforce - Login Successful automation script started***********
+20231029 19:15:01 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java73 - Username and password entered
+20231029 19:15:10 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java82 - ******login_to_salesforce - Login Successful***********
+20231029 19:15:16 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java90 - ******login_to_salesforce - CheckRemeberMe automation script started***********
+20231029 19:15:16 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java103 - Username and password entered and Rememberme check box clicked
+20231029 19:15:25 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java112 - ******login_to_salesforce - Login Successful***********
+20231029 19:15:31 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java119 - ******login_to_salesforce - ForgotPassword automation script started***********
+20231029 19:15:32 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java132 - Forgot Password Link clicked
+20231029 19:15:42 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java143 - Inside Forgot Password Page
+20231029 19:15:43 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java147 - continue Link clicked
+20231029 19:15:48 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java154 - ******login_to_salesforce - ForgotPassword Successful***********
+20231029 19:15:54 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java161 - ******login_to_salesforce - IncorrectUsernameAndPasswd automation script started***********
+20231029 19:15:54 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java173 - Invalid Username and password entered
+20231029 19:16:06 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java187 - ******login_to_salesforce - Selectusermenuforusernamdropdown automation script started***********
+20231029 19:16:06 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java199 -  Username and password entered
+20231029 19:16:14 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java208 - ******login_to_salesforce - IncorrectUsernameAndPasswd Successful***********
+20231029 19:16:19 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java34 - ******login_to_salesforce - password empty automation script started***********
+20231029 19:16:19 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java42 - Password not entered
+20231029 19:16:23 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java53 - Error message displayed
+20231029 19:16:23 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java54 - ******login_to_salesforce - password empty automation script ended***********
+20231029 19:16:29 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java61 - ******login_to_salesforce - Login Successful automation script started***********
+20231029 19:16:30 INFO  [main] Scripts.SalesForceAutomationScript SalesForceAutomationScript.java73 - Username and password entered

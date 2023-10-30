@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MySuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MyTest1(failed)">
+    <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="com.automation.tests.Scripts.SalesForceAutomationScript">
+        <methods>
+          <include name="setupBeforeTest"/>
+          <include name="login_to_salesforce_success"/>
+          <include name="IncorrectUsernameAndPasswd"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="setUpBeforeTestMethod"/>
+        </methods>
+      </class> <!-- com.automation.tests.Scripts.SalesForceAutomationScript -->
+    </classes>
+  </test> <!-- MyTest1(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
