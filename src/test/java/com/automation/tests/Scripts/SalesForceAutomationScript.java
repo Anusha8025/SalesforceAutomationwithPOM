@@ -5,6 +5,7 @@ import java.util.Properties;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -18,6 +19,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.automation.pages.base.BasePage;
 import com.automation.pages.forgotPasswd.CheckYourEmailPage;
 import com.automation.pages.forgotPasswd.forgotPasswdPage;
 import com.automation.pages.home.HomePage;

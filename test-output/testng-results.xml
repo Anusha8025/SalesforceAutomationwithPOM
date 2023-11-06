@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
+<testng-results ignored="0" total="12" passed="4" failed="3" skipped="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-29T19:13:54 CDT" name="MySuite" finished-at="2023-10-29T19:16:38 CDT" duration-ms="164483">
+  <suite started-at="2023-10-30T12:52:57 CDT" name="MySuite" finished-at="2023-10-30T12:54:42 CDT" duration-ms="105024">
     <groups>
     </groups>
-    <test started-at="2023-10-29T19:13:54 CDT" name="MyTest" finished-at="2023-10-29T19:15:10 CDT" duration-ms="76574">
+    <test started-at="2023-10-30T12:52:57 CDT" name="MyTest" finished-at="2023-10-30T12:53:13 CDT" duration-ms="16270">
       <class name="com.automation.tests.Scripts.SalesForceAutomationScript">
-        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:13:54 CDT" name="setupBeforeTest" finished-at="2023-10-29T19:13:55 CDT" duration-ms="623" status="PASS">
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:52:57 CDT" name="setupBeforeTest" finished-at="2023-10-30T12:52:58 CDT" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBeforeTest -->
-        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:13:55 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-29T19:13:59 CDT" duration-ms="3956" status="PASS">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:52:58 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-30T12:53:02 CDT" duration-ms="4364" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,180 +22,46 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeTestMethod -->
-        <test-method signature="CheckRemeberMe()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:13:59 CDT" name="CheckRemeberMe" finished-at="2023-10-29T19:14:09 CDT" duration-ms="10724" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckRemeberMe -->
-        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:14:09 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-29T19:14:10 CDT" duration-ms="238" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownAfterTestMethod -->
-        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:14:10 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-29T19:14:12 CDT" duration-ms="2792" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeTestMethod -->
-        <test-method signature="ForgotPassword()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:14:12 CDT" name="ForgotPassword" finished-at="2023-10-29T19:14:29 CDT" duration-ms="16973" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ForgotPassword -->
-        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:14:29 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-29T19:14:29 CDT" duration-ms="201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownAfterTestMethod -->
-        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:14:29 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-29T19:14:32 CDT" duration-ms="2573" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeTestMethod -->
-        <test-method signature="IncorrectUsernameAndPasswd()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:14:32 CDT" name="IncorrectUsernameAndPasswd" finished-at="2023-10-29T19:14:39 CDT" duration-ms="6766" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IncorrectUsernameAndPasswd -->
-        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:14:39 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-29T19:14:39 CDT" duration-ms="226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownAfterTestMethod -->
-        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:14:39 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-29T19:14:42 CDT" duration-ms="2463" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeTestMethod -->
-        <test-method signature="Selectusermenuforusernamdropdown()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:14:42 CDT" name="Selectusermenuforusernamdropdown" finished-at="2023-10-29T19:14:50 CDT" duration-ms="8717" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Selectusermenuforusernamdropdown -->
-        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:14:50 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-29T19:14:50 CDT" duration-ms="171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownAfterTestMethod -->
-        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:14:50 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-29T19:14:53 CDT" duration-ms="2661" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeTestMethod -->
-        <test-method signature="login_to_salesforce_failed()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:14:53 CDT" name="login_to_salesforce_failed" finished-at="2023-10-29T19:14:57 CDT" duration-ms="3459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_to_salesforce_failed -->
-        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:14:57 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-29T19:14:57 CDT" duration-ms="189" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownAfterTestMethod -->
-        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:14:57 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-29T19:15:00 CDT" duration-ms="2861" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeTestMethod -->
-        <test-method signature="login_to_salesforce_success()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:15:00 CDT" name="login_to_salesforce_success" finished-at="2023-10-29T19:15:10 CDT" duration-ms="10524" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_to_salesforce_success -->
-        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-29T19:15:10 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-29T19:15:10 CDT" duration-ms="360" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownAfterTestMethod -->
-      </class> <!-- com.automation.tests.Scripts.SalesForceAutomationScript -->
-    </test> <!-- MyTest -->
-    <test started-at="2023-10-29T19:15:11 CDT" name="MyTest1" finished-at="2023-10-29T19:16:38 CDT" duration-ms="87876">
-      <class name="com.automation.tests.Scripts.SalesForceAutomationScript">
-        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:15:11 CDT" name="setupBeforeTest" finished-at="2023-10-29T19:15:11 CDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupBeforeTest -->
-        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:15:11 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-29T19:15:16 CDT" duration-ms="5029" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeTestMethod -->
-        <test-method signature="CheckRemeberMe()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:15:16 CDT" name="CheckRemeberMe" finished-at="2023-10-29T19:15:25 CDT" duration-ms="9919" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckRemeberMe -->
-        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:15:25 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-29T19:15:27 CDT" duration-ms="1247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownAfterTestMethod -->
-        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:15:27 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-29T19:15:31 CDT" duration-ms="4763" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeTestMethod -->
-        <test-method signature="ForgotPassword()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:15:31 CDT" name="ForgotPassword" finished-at="2023-10-29T19:15:48 CDT" duration-ms="16421" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ForgotPassword -->
-        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:15:48 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-29T19:15:49 CDT" duration-ms="1025" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownAfterTestMethod -->
-        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:15:49 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-29T19:15:54 CDT" duration-ms="4984" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeTestMethod -->
-        <test-method signature="IncorrectUsernameAndPasswd()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:15:54 CDT" name="IncorrectUsernameAndPasswd" finished-at="2023-10-29T19:16:00 CDT" duration-ms="5940" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="CheckRemeberMe()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:02 CDT" name="CheckRemeberMe" finished-at="2023-10-30T12:53:13 CDT" duration-ms="10981" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[expected [Please check your username and password. If you still can't log in, contact your Salesforce administrator.] but found [Please enter your password.]]]>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0cd6462ed9ed2c7d00770a19dc28726, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\anush\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0cd6462ed9ed2c7d00770a19dc28726]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Please check your username and password. If you still can't log in, contact your Salesforce administrator.] but found [Please enter your password.]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.automation.tests.Scripts.SalesForceAutomationScript.IncorrectUsernameAndPasswd(SalesForceAutomationScript.java:179)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0cd6462ed9ed2c7d00770a19dc28726, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\anush\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0cd6462ed9ed2c7d00770a19dc28726
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:309)
+at com.automation.pages.home.HomePage.getTitleOfThePAge(HomePage.java:31)
+at com.automation.tests.Scripts.SalesForceAutomationScript.CheckRemeberMe(SalesForceAutomationScript.java:111)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -226,53 +92,533 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRemeberMe -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-30T12:53:13 CDT" duration-ms="42" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0cd6462ed9ed2c7d00770a19dc28726, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\anush\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0cd6462ed9ed2c7d00770a19dc28726]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0cd6462ed9ed2c7d00770a19dc28726, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\anush\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0cd6462ed9ed2c7d00770a19dc28726
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:409)
+at com.automation.tests.Base.BaseTest.closeBrowser(BaseTest.java:276)
+at com.automation.tests.Base.BaseTest.tearDownAfterTestMethod(BaseTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-30T12:53:13 CDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="ForgotPassword()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="ForgotPassword" finished-at="2023-10-30T12:53:13 CDT" duration-ms="4" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0cd6462ed9ed2c7d00770a19dc28726, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\anush\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0cd6462ed9ed2c7d00770a19dc28726]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0cd6462ed9ed2c7d00770a19dc28726, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\anush\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0cd6462ed9ed2c7d00770a19dc28726
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:409)
+at com.automation.tests.Base.BaseTest.closeBrowser(BaseTest.java:276)
+at com.automation.tests.Base.BaseTest.tearDownAfterTestMethod(BaseTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-30T12:53:13 CDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-30T12:53:13 CDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="IncorrectUsernameAndPasswd()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="IncorrectUsernameAndPasswd" finished-at="2023-10-30T12:53:13 CDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0cd6462ed9ed2c7d00770a19dc28726, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\anush\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0cd6462ed9ed2c7d00770a19dc28726]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0cd6462ed9ed2c7d00770a19dc28726, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\anush\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0cd6462ed9ed2c7d00770a19dc28726
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:409)
+at com.automation.tests.Base.BaseTest.closeBrowser(BaseTest.java:276)
+at com.automation.tests.Base.BaseTest.tearDownAfterTestMethod(BaseTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IncorrectUsernameAndPasswd -->
-        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:16:00 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-29T19:16:01 CDT" duration-ms="1151" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-30T12:53:13 CDT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterTestMethod -->
-        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:16:01 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-29T19:16:06 CDT" duration-ms="4799" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-30T12:53:13 CDT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeTestMethod -->
-        <test-method signature="Selectusermenuforusernamdropdown()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:16:06 CDT" name="Selectusermenuforusernamdropdown" finished-at="2023-10-29T19:16:14 CDT" duration-ms="7858" status="PASS">
+        <test-method signature="Selectusermenuforusernamdropdown()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="Selectusermenuforusernamdropdown" finished-at="2023-10-30T12:53:13 CDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0cd6462ed9ed2c7d00770a19dc28726, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\anush\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0cd6462ed9ed2c7d00770a19dc28726]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0cd6462ed9ed2c7d00770a19dc28726, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\anush\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0cd6462ed9ed2c7d00770a19dc28726
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:409)
+at com.automation.tests.Base.BaseTest.closeBrowser(BaseTest.java:276)
+at com.automation.tests.Base.BaseTest.tearDownAfterTestMethod(BaseTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Selectusermenuforusernamdropdown -->
-        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:16:14 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-29T19:16:15 CDT" duration-ms="1139" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-30T12:53:13 CDT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterTestMethod -->
-        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:16:15 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-29T19:16:19 CDT" duration-ms="4652" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-30T12:53:13 CDT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeTestMethod -->
-        <test-method signature="login_to_salesforce_failed()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:16:19 CDT" name="login_to_salesforce_failed" finished-at="2023-10-29T19:16:23 CDT" duration-ms="3486" status="PASS">
+        <test-method signature="login_to_salesforce_failed()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="login_to_salesforce_failed" finished-at="2023-10-30T12:53:13 CDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0cd6462ed9ed2c7d00770a19dc28726, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\anush\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0cd6462ed9ed2c7d00770a19dc28726]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0cd6462ed9ed2c7d00770a19dc28726, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\anush\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0cd6462ed9ed2c7d00770a19dc28726
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:409)
+at com.automation.tests.Base.BaseTest.closeBrowser(BaseTest.java:276)
+at com.automation.tests.Base.BaseTest.tearDownAfterTestMethod(BaseTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_to_salesforce_failed -->
-        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:16:23 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-29T19:16:24 CDT" duration-ms="1397" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-30T12:53:13 CDT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterTestMethod -->
-        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:16:24 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-29T19:16:29 CDT" duration-ms="4774" status="PASS">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-30T12:53:13 CDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="login_to_salesforce_success()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="login_to_salesforce_success" finished-at="2023-10-30T12:53:13 CDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0cd6462ed9ed2c7d00770a19dc28726, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\anush\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0cd6462ed9ed2c7d00770a19dc28726]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0cd6462ed9ed2c7d00770a19dc28726, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\anush\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0cd6462ed9ed2c7d00770a19dc28726
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:409)
+at com.automation.tests.Base.BaseTest.closeBrowser(BaseTest.java:276)
+at com.automation.tests.Base.BaseTest.tearDownAfterTestMethod(BaseTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_to_salesforce_success -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@f5958c9]" started-at="2023-10-30T12:53:13 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-30T12:53:13 CDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.automation.tests.Scripts.SalesForceAutomationScript -->
+    </test> <!-- MyTest -->
+    <test started-at="2023-10-30T12:53:13 CDT" name="MyTest1" finished-at="2023-10-30T12:54:42 CDT" duration-ms="88686">
+      <class name="com.automation.tests.Scripts.SalesForceAutomationScript">
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:53:13 CDT" name="setupBeforeTest" finished-at="2023-10-30T12:53:13 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:53:13 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-30T12:53:19 CDT" duration-ms="5406" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -283,7 +629,175 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeTestMethod -->
-        <test-method signature="login_to_salesforce_success()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:16:29 CDT" name="login_to_salesforce_success" finished-at="2023-10-29T19:16:37 CDT" duration-ms="8094" status="FAIL">
+        <test-method signature="CheckRemeberMe()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:53:19 CDT" name="CheckRemeberMe" finished-at="2023-10-30T12:53:29 CDT" duration-ms="10253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRemeberMe -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:53:29 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-30T12:53:30 CDT" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:53:30 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-30T12:53:35 CDT" duration-ms="4743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="ForgotPassword()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:53:35 CDT" name="ForgotPassword" finished-at="2023-10-30T12:53:52 CDT" duration-ms="16439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:53:52 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-30T12:53:53 CDT" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:53:53 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-30T12:53:58 CDT" duration-ms="5186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="IncorrectUsernameAndPasswd()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:53:58 CDT" name="IncorrectUsernameAndPasswd" finished-at="2023-10-30T12:54:04 CDT" duration-ms="5889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectUsernameAndPasswd -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:54:04 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-30T12:54:05 CDT" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:54:05 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-30T12:54:11 CDT" duration-ms="5081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="Selectusermenuforusernamdropdown()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:54:11 CDT" name="Selectusermenuforusernamdropdown" finished-at="2023-10-30T12:54:17 CDT" duration-ms="6574" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #userNav\-arrow
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3b72fefa-3559-4243-9acb-1fe36e2901d6, findElement {using=id, value=userNav-arrow}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:47837, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19680, moz:profile: C:\Users\anush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:47837/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3b72fefa-3559-4243-9acb-1fe36e2901d6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #userNav\-arrow
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3b72fefa-3559-4243-9acb-1fe36e2901d6, findElement {using=id, value=userNav-arrow}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:47837, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19680, moz:profile: C:\Users\anush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:47837/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3b72fefa-3559-4243-9acb-1fe36e2901d6
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy33.isEnabled(Unknown Source)
+at com.automation.pages.base.BasePage.clickElement(BasePage.java:104)
+at com.automation.pages.home.HomePage.clickuserMenuDropDown(HomePage.java:38)
+at com.automation.tests.Scripts.SalesForceAutomationScript.Selectusermenuforusernamdropdown(SalesForceAutomationScript.java:206)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selectusermenuforusernamdropdown -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:54:17 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-30T12:54:18 CDT" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:54:18 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-30T12:54:23 CDT" duration-ms="5108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="login_to_salesforce_failed()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:54:23 CDT" name="login_to_salesforce_failed" finished-at="2023-10-30T12:54:27 CDT" duration-ms="3276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_to_salesforce_failed -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:54:27 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-30T12:54:28 CDT" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:54:28 CDT" name="setUpBeforeTestMethod" finished-at="2023-10-30T12:54:32 CDT" duration-ms="4853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="login_to_salesforce_success()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:54:32 CDT" name="login_to_salesforce_success" finished-at="2023-10-30T12:54:41 CDT" duration-ms="8367" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Home Page ~ Salesforce - Developer Edition] but found [Login | Salesforce]]]>
@@ -296,7 +810,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
-at com.automation.tests.Scripts.SalesForceAutomationScript.login_to_salesforce_success(SalesForceAutomationScript.java:81)
+at com.automation.tests.Scripts.SalesForceAutomationScript.login_to_salesforce_success(SalesForceAutomationScript.java:83)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -331,7 +845,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_to_salesforce_success -->
-        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-29T19:16:37 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-29T19:16:38 CDT" duration-ms="1156" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.Scripts.SalesForceAutomationScript@70325e14]" started-at="2023-10-30T12:54:41 CDT" name="tearDownAfterTestMethod" finished-at="2023-10-30T12:54:42 CDT" duration-ms="1304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterTestMethod -->

@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>4/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Oct 29 19:15:11 CDT 2023</td>
+<td>Started on:</td><td>Mon Oct 30 12:53:13 CDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>87 seconds (87876 ms)</td>
+<tr><td>Total time:</td><td>88 seconds (88686 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,19 +76,109 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.automation.tests.Scripts.SalesForceAutomationScript.Selectusermenuforusernamdropdown()'><b>Selectusermenuforusernamdropdown</b><br>Test class: com.automation.tests.Scripts.SalesForceAutomationScript</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #userNav\-arrow
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3b72fefa-3559-4243-9acb-1fe36e2901d6, findElement {using=id, value=userNav-arrow}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:47837, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19680, moz:profile: C:\Users\anush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:47837/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3b72fefa-3559-4243-9acb-1fe36e2901d6
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.isEnabled(Unknown Source)
+	at com.automation.pages.base.BasePage.clickElement(BasePage.java:104)
+	at com.automation.pages.home.HomePage.clickuserMenuDropDown(HomePage.java:38)
+	at com.automation.tests.Scripts.SalesForceAutomationScript.Selectusermenuforusernamdropdown(SalesForceAutomationScript.java:206)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2140650516", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2140650516'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #userNav\-arrow
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3b72fefa-3559-4243-9acb-1fe36e2901d6, findElement {using=id, value=userNav-arrow}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:47837, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19680, moz:profile: C:\Users\anush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:47837/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3b72fefa-3559-4243-9acb-1fe36e2901d6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.isEnabled(Unknown Source)
+	at com.automation.pages.base.BasePage.clickElement(BasePage.java:104)
+	at com.automation.pages.home.HomePage.clickuserMenuDropDown(HomePage.java:38)
+	at com.automation.tests.Scripts.SalesForceAutomationScript.Selectusermenuforusernamdropdown(SalesForceAutomationScript.java:206)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>com.automation.tests.Scripts.SalesForceAutomationScript@70325e14</td></tr>
+<tr>
 <td title='com.automation.tests.Scripts.SalesForceAutomationScript.login_to_salesforce_success()'><b>login_to_salesforce_success</b><br>Test class: com.automation.tests.Scripts.SalesForceAutomationScript</td>
 <td><div><pre>java.lang.AssertionError: expected [Home Page ~ Salesforce - Developer Edition] but found [Login | Salesforce]
-	at com.automation.tests.Scripts.SalesForceAutomationScript.login_to_salesforce_success(SalesForceAutomationScript.java:81)
+	at com.automation.tests.Scripts.SalesForceAutomationScript.login_to_salesforce_success(SalesForceAutomationScript.java:83)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace298045999", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace298045999'><pre>java.lang.AssertionError: expected [Home Page ~ Salesforce - Developer Edition] but found [Login | Salesforce]
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace220588152", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace220588152'><pre>java.lang.AssertionError: expected [Home Page ~ Salesforce - Developer Edition] but found [Login | Salesforce]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.automation.tests.Scripts.SalesForceAutomationScript.login_to_salesforce_success(SalesForceAutomationScript.java:81)
+	at com.automation.tests.Scripts.SalesForceAutomationScript.login_to_salesforce_success(SalesForceAutomationScript.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -120,51 +210,6 @@ function toggleAllBoxes() {
 </pre></div></td>
 <td>8</td>
 <td>com.automation.tests.Scripts.SalesForceAutomationScript@70325e14</td></tr>
-<tr>
-<td title='com.automation.tests.Scripts.SalesForceAutomationScript.IncorrectUsernameAndPasswd()'><b>IncorrectUsernameAndPasswd</b><br>Test class: com.automation.tests.Scripts.SalesForceAutomationScript</td>
-<td><div><pre>java.lang.AssertionError: expected [Please check your username and password. If you still can&apos;t log in, contact your Salesforce administrator.] but found [Please enter your password.]
-	at com.automation.tests.Scripts.SalesForceAutomationScript.IncorrectUsernameAndPasswd(SalesForceAutomationScript.java:179)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1129874021", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1129874021'><pre>java.lang.AssertionError: expected [Please check your username and password. If you still can&apos;t log in, contact your Salesforce administrator.] but found [Please enter your password.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.automation.tests.Scripts.SalesForceAutomationScript.IncorrectUsernameAndPasswd(SalesForceAutomationScript.java:179)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>5</td>
-<td>com.automation.tests.Scripts.SalesForceAutomationScript@70325e14</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -175,24 +220,24 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.automation.tests.Scripts.SalesForceAutomationScript.login_to_salesforce_failed()'><b>login_to_salesforce_failed</b><br>Test class: com.automation.tests.Scripts.SalesForceAutomationScript</td>
-<td></td>
-<td>3</td>
-<td>com.automation.tests.Scripts.SalesForceAutomationScript@70325e14</td></tr>
-<tr>
 <td title='com.automation.tests.Scripts.SalesForceAutomationScript.CheckRemeberMe()'><b>CheckRemeberMe</b><br>Test class: com.automation.tests.Scripts.SalesForceAutomationScript</td>
 <td></td>
-<td>9</td>
+<td>10</td>
 <td>com.automation.tests.Scripts.SalesForceAutomationScript@70325e14</td></tr>
 <tr>
-<td title='com.automation.tests.Scripts.SalesForceAutomationScript.Selectusermenuforusernamdropdown()'><b>Selectusermenuforusernamdropdown</b><br>Test class: com.automation.tests.Scripts.SalesForceAutomationScript</td>
+<td title='com.automation.tests.Scripts.SalesForceAutomationScript.IncorrectUsernameAndPasswd()'><b>IncorrectUsernameAndPasswd</b><br>Test class: com.automation.tests.Scripts.SalesForceAutomationScript</td>
 <td></td>
-<td>7</td>
+<td>5</td>
 <td>com.automation.tests.Scripts.SalesForceAutomationScript@70325e14</td></tr>
 <tr>
 <td title='com.automation.tests.Scripts.SalesForceAutomationScript.ForgotPassword()'><b>ForgotPassword</b><br>Test class: com.automation.tests.Scripts.SalesForceAutomationScript</td>
 <td></td>
 <td>16</td>
+<td>com.automation.tests.Scripts.SalesForceAutomationScript@70325e14</td></tr>
+<tr>
+<td title='com.automation.tests.Scripts.SalesForceAutomationScript.login_to_salesforce_failed()'><b>login_to_salesforce_failed</b><br>Test class: com.automation.tests.Scripts.SalesForceAutomationScript</td>
+<td></td>
+<td>3</td>
 <td>com.automation.tests.Scripts.SalesForceAutomationScript@70325e14</td></tr>
 </table><p>
 </body>
